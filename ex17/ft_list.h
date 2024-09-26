@@ -6,7 +6,7 @@
 /*   By: pyarova <pyarova@student.s19.be>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/26 10:21:25 by pyarova           #+#    #+#             */
-/*   Updated: 2024/09/26 18:27:54 by pyarova          ###   ########.fr       */
+/*   Updated: 2024/09/26 20:45:36 by pyarova          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,5 +18,7 @@ typedef struct s_list
 	struct s_list	*next;
 	void			*data;
 }	t_list;
+
+t_list	*ft_create_elem(void *data);
 
 #endif

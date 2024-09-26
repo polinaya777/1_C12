@@ -6,11 +6,12 @@
 /*   By: pyarova <pyarova@student.s19.be>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/26 17:55:46 by pyarova           #+#    #+#             */
-/*   Updated: 2024/09/26 17:58:43 by pyarova          ###   ########.fr       */
+/*   Updated: 2024/09/26 20:43:09 by pyarova          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_list.h"
+#include <stdlib.h>
 
 void	ft_list_sort(t_list **begin_list, int (*cmp)(void *, void *))
 {

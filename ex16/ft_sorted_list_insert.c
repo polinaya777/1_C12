@@ -6,11 +6,12 @@
 /*   By: pyarova <pyarova@student.s19.be>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/26 18:06:17 by pyarova           #+#    #+#             */
-/*   Updated: 2024/09/26 18:26:06 by pyarova          ###   ########.fr       */
+/*   Updated: 2024/09/26 20:43:48 by pyarova          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_list.h"
+#include <stdlib.h>
 
 void	ft_list_insert_end(t_list **begin_list, void *data)
 {
